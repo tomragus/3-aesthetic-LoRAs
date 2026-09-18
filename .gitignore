@@ -1,0 +1,25 @@
+# Project-specific
+data/
+outputs/
+checkpoints/
+CLAUDE.md
+prompts-LoRA-adaptations.md
+prompts-raw-turbo.md
+
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

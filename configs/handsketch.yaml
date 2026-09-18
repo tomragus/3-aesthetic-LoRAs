@@ -1,0 +1,10 @@
+base_model: krea-2
+trigger_phrase: "handsketch style"
+dataset_path: "data/handsketch"  # populated by scripts/download_data.py
+
+hyperparameters:
+  learning_rate: 1e-4
+  batch_size: 4
+  num_epochs: 10
+  lora_rank: 16
+  lora_alpha: 32
